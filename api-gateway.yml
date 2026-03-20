@@ -50,4 +50,4 @@ spring:
 
 
 jwt:
-  secret: mhpark0605-super-secret-key-for-jwt-123456789
+  secret: aitale-super-secret-key-for-miniproj-123456789
