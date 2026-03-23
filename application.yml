@@ -12,6 +12,12 @@ spring:
     url: jdbc:mariadb://${DB_HOST}:3306/inspire?useSSL=true&requireSSL=true  
     username: ${DB_ADMIN}  
     password: ${DB_PASSWORD}
+    hikari:
+      maximum-pool-size: 3
+      minimum-idle: 1
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
 
   jpa:
     database: mysql
