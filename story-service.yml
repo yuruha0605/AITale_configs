@@ -3,3 +3,8 @@ management:
     web:
       exposure:
         include: health,info,refresh,busrefresh
+
+public-data:
+  story:
+    url: https://www.culture.go.kr/openapi/rest/publicstory/list
+    service-key: c59a0de8-2688-47b3-a19d-0f41f7f45db9
