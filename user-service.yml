@@ -1,8 +1,2 @@
 jwt:
   secret: aitale-super-secret-key-for-miniproj-123456789
-
-springdoc:
-  swagger-ui:
-    config-url: /user-service/v3/api-docs/swagger-config
-    url: /user-service/v3/api-docs
-    oauth2-redirect-url: /user-service/swagger-ui/oauth2-redirect.html
